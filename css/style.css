@@ -9,10 +9,10 @@
     background:#eaf5ff;
     position: relative; 
 }
-ol{
+/* ol{
     position: absolute;
     right: 5%;
-}
+} */
 li{
     margin: 0px 60px;
 }
@@ -47,9 +47,9 @@ li a{
     widows: 90%;
     justify-content: space-between;
     align-items: center; 
-    /* clip-path: polygon(100% 0%,95% 50%,50% 100%,5% 5%,0% 0%); */
-     /* position: absolute;  */
-    top: 0;
+    clip-path: polygon(100% 0%,95% 50%,50% 100%,5% 5%,0% 0%);
+    position: absolute; 
+     top: 0;
     left: 5%;
     background: #d40219;
     padding: 2 10%;
@@ -57,14 +57,14 @@ li a{
     flex-direction: row;
 }
 ul{
-    /* position: absolute; */
+     position: absolute; 
     left: 5%;
-}
+} 
 
 
 
-   /* 
+   /*  */
  
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 5%; */
+    left: 5%; */ 
