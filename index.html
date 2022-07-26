@@ -2,28 +2,41 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <script src="scripts.js"></script>
+  </head>
 <body>
-
-  <div id="container">
-     <!-- <div id="logo">
-      <img src="images/logo.jpeg" alt="">
-    </div>   --> 
-
-    <div id="navbar">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#product">Product</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">WyckieCarTruck</div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="services"><a href="#services">Services</a>
+            <!-- DROPDOWN MENU -->
+            <ul class="dropdown">
+              <li><a href="/">Dropdown 1 </a></li>
+              <li><a href="/">Dropdown 2</a></li>
+              <li><a href="/">Dropdown 2</a></li>
+              <li><a href="/">Dropdown 3</a></li>
+              <li><a href="/">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <!-- <li><a href="/">Pricing</a></li> -->
+          <li><a href="/">Contact</a></li>
+        </div>
       </ul>
-    </div>
-  </div>
-
+    </nav>
+ 
   <div id="about">
-    <h1>About </h1>
+    <h1 >About </h1>
     <p> We at WyckieCarTruck Importers ,do deal with car importations, buying and selling of used and new cars
       
     </p>
